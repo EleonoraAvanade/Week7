@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <center class="centred">
+        <h1 class="red">Menu</h1>
+        <button class="roundedButton"><h3><a href="Scheda tecnica.html">Scheda tecnica</a></h3></button>
+        <button class="roundedButton"><h3><a href="Attori.html">Lista attori</a></h3></button>
+        <button class="roundedButton"><h3><a href="Newsletter.html">Newsletter</a></h3></button>
+        <br /><hr />
+    </center>
+    <center>
+        <form>
+            <label>Nickname</label>
+            <input type="text" placeholder="Immetti il tuo nick" id="storageKey" onclick="activate()" required /><br />
+            <label>Password</label>
+            <input type="password" placeholder="Immetti la tua password" id="storageValue" required />
+        </form><br />
+        <button onclick="subscribe()" id="ButtonSubscribe">Subscribe</button>
+        <button onclick="login()" type="submit" id="ButtonLogin">Login</button>
+        <button onclick="unsub()" type="submit" id="ButtonUnsubscribe">Unsubscribe</button><br /><br /><br />
+    </center>
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿body
+{
+}
+.red{
+    color: darkred;
+}/*
+.centred {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}*/
+h3:hover{
+    background-color: lightcoral;
+}
+.roundedButton{
+    border: none;
+    color: none;
+    text-align: center;
+    border-radius: 50%;
+}
+.ridimensionaImg{
+    max-block-size: 200px;
+}
